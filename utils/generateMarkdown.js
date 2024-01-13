@@ -9,8 +9,11 @@
 
 function generateMarkdown(data) {
   const contributors = data.contributors.split(",");
-  console.log(data);
-  console.log(contributors);
+  let contributorsString = "";
+  contributors.forEach((contributor) => {
+    contributorsString += contributor.trim() + "\n";
+  });
+
   return `# ${data.title}
 ## Description
 ${data.description}
@@ -28,6 +31,7 @@ ${data.usage}
 ${data.license}
 
 ## Contributing
+${contributorsString}
 
 ## Tests
 N/A

@@ -5,7 +5,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
-  /*{
+  {
     type: "input",
     message: "What is the title?",
     name: "title",
@@ -29,7 +29,7 @@ const questions = [
     type: "input",
     message: "What are the usage details?",
     name: "usage",
-  },*/
+  },
   {
     type: "input",
     message: "Who are the contributors?",
