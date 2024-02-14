@@ -1,33 +1,28 @@
-# MDEDEWD
-
+# My Project
 ## Description
-
-RCRRrfr
+Does stuff and things
 
 ## Table of Contents
-
-rrfwfr
+One
+Two
+Three
 
 ## Installation
-
-wfwfrf
+My installation details
 
 ## Usage
-
-wfrfwrf
+My usage details
 
 ## License
-
-license1
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-
-one
-two
-three
+Matt
+Greg
+Min
 
 ## Tests
-
-N/A
+My test are these
 
 ## Questions
+undefined
