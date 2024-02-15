@@ -1,28 +1,36 @@
-# My Project
+# My Awesome Project
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-Does stuff and things
+This project is awesome and does awesome things!
 
 ## Table of Contents
-One
-Two
-Three
+* Description
+* Table of Contents
+* Installation
+* Usage
+* License
+* Contributing
+* Tests
+* Questions
 
 ## Installation
-My installation details
+Here are the installation details. Lorem ipsum ...
 
 ## Usage
-My usage details
+Here are the usage details. Lorem ipsum ...
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contributing
-Matt
-Greg
-Min
+## Contributors
+* Matt
+* Myself
+* and I
 
 ## Tests
-My test are these
+Here are the tests. Lorem ipsum ...
 
 ## Questions
-undefined
+Please contact me via my git hub username mattlusty 
+
+https://github.com/mattlusty

@@ -6,10 +6,16 @@ function listToArray(list) {
 function stackArrayItems(array) {
   let listString = "";
   let lastIndex = array.length - 1;
+  console.log("listString start: ", listString);
   for (let i = 0; i < lastIndex; i++) {
-    listString += array[i] + "\n";
+    console.log("index: ", i);
+    console.log("item: ", array[i]);
+    listString += "* " + array[i] + "\n";
+    console.log("listString: ", listString);
   }
-  listString += array[lastIndex];
+  console.log("last item: ", array[lastIndex]);
+  listString += "* " + array[lastIndex];
+  console.log("listString return: ", listString);
   return listString;
 }
 
@@ -25,10 +31,8 @@ function getLicenseBadge(license) {
 }
 
 function generateMarkdown(data) {
-  data.contents = stackArrayItems(listToArray(data.contents));
-  data.contributors = stackArrayItems(listToArray(data.contributors));
-
   return `# ${data.title}
+${getLicenseBadge(data.license)}
 ## Description
 ${data.description}
 
@@ -51,7 +55,9 @@ ${stackArrayItems(listToArray(data.contributors))}
 ${data.tests}
 
 ## Questions
-Please contact me via my github username ${data.username}
+Please contact me via my git hub username ${data.username} 
+
+https://github.com/${data.username}
 `;
 }
 
